@@ -1,5 +1,14 @@
 console.log("abc.js running");
 
+// Click Handler for title "Let's practice our ABCs"
+document.querySelector("h1").addEventListener("click", function () {
+    var buttonInnerHTML = this.innerHTML;
+    console.log(buttonInnerHTML);
+
+    soundOff(buttonInnerHTML);
+
+})
+
 // Get total length of buttons
 var alphabet = document.querySelectorAll(".letter").length;
 
@@ -34,7 +43,7 @@ addEventListener("keydown", function (event) {
 
 })
 
-// Sound Function
+// Sound Function for each letter
 function soundOff(key) {
 
     switch (key) {
@@ -167,12 +176,19 @@ function soundOff(key) {
             var letterZ = new Audio("/sounds/z.m4a");
             letterZ.play();
             break;
+        
+        case "Mead ABCs":
+            var ABCs = new Audio("/sounds/ABCs.m4a");
+            ABCs.play();
+            break;
 
         default:
             console.log(buttonInnerHTML);
             break;
     }
 }
+
+// This removes the text and adds a photo for 3 seconds
 
 function buttonAnimation(currentKey) {
 

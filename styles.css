@@ -26,6 +26,12 @@ body {
     background-color: #304874;
 }
 
+a, a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+}
+
 /* Letter Pictures */
 
 .aPressed {
