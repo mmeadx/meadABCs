@@ -1,5 +1,8 @@
 # Mead Family - Learn my ABCs
 
+See Live site [HERE](https://mmeadx.github.io/meadABCs/)
+
+
 Using a combination of javaScript, DOM manipulation and CSS, this is an interactive web app allowing the user to click on a letter of the alphabet to see an image and hear a word associated with that letter. 
 
 
