@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #304874;
+}
+
+#title {
+    font-size: 8em;
+    color: #dddddd;
+    font-family: 'Amatic SC', cursive;
+    margin: 0;
+}
+
+.letter {
+    color: #c0a405;
+    font-family: 'Slabo 27px', serif;
+    outline: none;
+    border: 10px solid #304874;
+    font-size: 5em;
+    line-height: 2;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    background-color: #304874;
+}
+
+/* Letter Pictures */
+
+.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover, .i:hover, .j:hover, .k:hover, .l:hover, .m:hover, .n:hover, .o:hover, .p:hover, .q:hover, .r:hover, .s:hover, .t:hover, .u:hover, .v:hover, .w:hover, .x:hover, .y:hover, .z:hover {
+    color: transparent;
+    background-image: url("images/f.png");
+}
+.f {
+    background-image: url("images/f.png");
+}
