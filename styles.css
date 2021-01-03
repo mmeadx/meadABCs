@@ -28,10 +28,159 @@ body {
 
 /* Letter Pictures */
 
-.a:hover, .b:hover, .c:hover, .d:hover, .e:hover, .f:hover, .g:hover, .h:hover, .i:hover, .j:hover, .k:hover, .l:hover, .m:hover, .n:hover, .o:hover, .p:hover, .q:hover, .r:hover, .s:hover, .t:hover, .u:hover, .v:hover, .w:hover, .x:hover, .y:hover, .z:hover {
+.aPressed {
+    color: transparent;
+    background-image: url("images/a.png");
+    background-size: 100%;
+}
+
+.bPressed {
+    color: transparent;
+    background-image: url("images/b.png");
+    background-size: 100%;
+}
+
+.cPressed {
+    color: transparent;
+    background-image: url("images/c.png");
+    background-size: 100%;
+}
+
+.dPressed {
+    color: transparent;
+    background-image: url("images/d.png");
+    background-size: 100%;
+}
+
+.ePressed {
+    color: transparent;
+    background-image: url("images/e.png");
+    background-size: 100%;
+}
+
+.fPressed {
     color: transparent;
     background-image: url("images/f.png");
+    background-size: 100%;
 }
-.f {
-    background-image: url("images/f.png");
+
+.gPressed {
+    color: transparent;
+    background-image: url("images/g.png");
+    background-size: 100%;
 }
+
+.hPressed {
+    color: transparent;
+    background-image: url("images/h.png");
+    background-size: 100%;
+}
+
+.iPressed {
+    color: transparent;
+    background-image: url("images/i.png");
+    background-size: 100%;
+}
+
+.jPressed {
+    color: transparent;
+    background-image: url("images/j.png");
+    background-size: 100%;
+}
+
+.kPressed {
+    color: transparent;
+    background-image: url("images/k.png");
+    background-size: 100%;
+}
+
+.lPressed {
+    color: transparent;
+    background-image: url("images/l.png");
+    background-size: 100%;
+}
+
+.mPressed {
+    color: transparent;
+    background-image: url("images/m.png");
+    background-size: 100%;
+}
+
+.nPressed {
+    color: transparent;
+    background-image: url("images/n.png");
+    background-size: 100%;
+}
+
+.oPressed {
+    color: transparent;
+    background-image: url("images/o.png");
+    background-size: 100%;
+}
+
+.pPressed {
+    color: transparent;
+    background-image: url("images/p.png");
+    background-size: 100%;
+}
+
+.qPressed {
+    color: transparent;
+    background-image: url("images/q.png");
+    background-size: 100%;
+}
+
+.rPressed {
+    color: transparent;
+    background-image: url("images/r.png");
+    background-size: 100%;
+}
+
+.sPressed {
+    color: transparent;
+    background-image: url("images/s.png");
+    background-size: 100%;
+}
+
+.tPressed {
+    color: transparent;
+    background-image: url("images/t.png");
+    background-size: 100%;
+}
+
+.uPressed {
+    color: transparent;
+    background-image: url("images/u.png");
+    background-size: 100%;
+}
+
+.vPressed {
+    color: transparent;
+    background-image: url("images/v.png");
+    background-size: 100%;
+}
+
+.wPressed {
+    color: transparent;
+    background-image: url("images/w.png");
+    background-size: 100%;
+}
+
+.xPressed {
+    color: transparent;
+    background-image: url("images/x.png");
+    background-size: 100%;
+}
+
+.yPressed {
+    color: transparent;
+    background-image: url("images/y.png");
+    background-size: 100%;
+}
+
+.zPressed {
+    color: transparent;
+    background-image: url("images/z.png");
+    background-size: 100%;
+}
+
