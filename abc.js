@@ -48,7 +48,7 @@ function soundOff(key) {
 
     switch (key) {
         case "a":
-            var letterA = new Audio("/sounds/a.m4a");
+            var letterA = new Audio("/sounds/a.mp3");
             letterA.play();
             break;
 
