@@ -14,14 +14,14 @@ body {
     color: #c0a405;
     font-family: 'Slabo 27px', serif;
     outline: none;
-    border: 10px solid #304874;
-    font-size: 5em;
+    border: 10px transparent #304874;
+    font-size: 4em;
     line-height: 2;
     border-radius: 15px;
     display: inline-block;
     width: 150px;
     height: 150px;
-    text-align: center;
+    text-align: auto;
     margin: 10px;
     background-color: #304874;
 }
@@ -38,18 +38,21 @@ a, a:link, a:visited, a:hover, a:active {
     color: transparent;
     background-image: url("images/a.png");
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .bPressed {
     color: transparent;
     background-image: url("images/b.png");
-    background-size: 100%;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 
 .cPressed {
     color: transparent;
     background-image: url("images/c.png");
-    background-size: 100%;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 
 .dPressed {
