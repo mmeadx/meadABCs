@@ -73,112 +73,112 @@ function soundOff(key) {
             break;
 
         case "f":
-            var letterF = new Audio("/sounds/f.m4a");
+            var letterF = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/f.m4a");
             letterF.play();
             break;
 
         case "g":
-            var letterG = new Audio("/sounds/g.m4a");
+            var letterG = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/g.m4a");
             letterG.play();
             break;
 
         case "h":
-            var letterH = new Audio("/sounds/h.m4a");
+            var letterH = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/h.m4a");
             letterH.play();
             break;
 
         case "i":
-            var letterI = new Audio("/sounds/i.m4a");
+            var letterI = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/i.m4a");
             letterI.play();
             break;
 
         case "j":
-            var letterJ = new Audio("/sounds/j.m4a");
+            var letterJ = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/j.m4a");
             letterJ.play();
             break;
 
         case "k":
-            var letterK = new Audio("/sounds/k.m4a");
+            var letterK = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/k.m4a");
             letterK.play();
             break;
 
         case "l":
-            var letterL = new Audio("/sounds/l.m4a");
+            var letterL = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/l.m4a");
             letterL.play();
             break;
 
         case "m":
-            var letterM = new Audio("/sounds/m.m4a");
+            var letterM = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/m.m4a");
             letterM.play();
             break;
 
         case "n":
-            var letterN = new Audio("/sounds/n.m4a");
+            var letterN = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/n.m4a");
             letterN.play();
             break;
 
         case "o":
-            var letterO = new Audio("/sounds/o.m4a");
+            var letterO = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/o.m4a");
             letterO.play();
             break;
 
         case "p":
-            var letterP = new Audio("/sounds/p.m4a");
+            var letterP = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/p.m4a");
             letterP.play();
             break;
 
         case "q":
-            var letterQ = new Audio("/sounds/q.m4a");
+            var letterQ = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/q.m4a");
             letterQ.play();
             break;
 
         case "r":
-            var letterR = new Audio("/sounds/r.m4a");
+            var letterR = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/r.m4a");
             letterR.play();
             break;
 
         case "s":
-            var letterS = new Audio("/sounds/s.m4a");
+            var letterS = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/s.m4a");
             letterS.play();
             break;
 
         case "t":
-            var letterT = new Audio("/sounds/t.m4a");
+            var letterT = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/t.m4a");
             letterT.play();
             break;
 
         case "u":
-            var letterU = new Audio("/sounds/u.m4a");
+            var letterU = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/u.m4a");
             letterU.play();
             break;
 
         case "v":
-            var letterV = new Audio("/sounds/v.m4a");
+            var letterV = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/v.m4a");
             letterV.play();
             break;
 
         case "w":
-            var letterW = new Audio("/sounds/w.m4a");
+            var letterW = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/w.m4a");
             letterW.play();
             break;
 
         case "x":
-            var letterX = new Audio("/sounds/x.m4a");
+            var letterX = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/x.m4a");
             letterX.play();
             break;
 
         case "y":
-            var letterY = new Audio("/sounds/y.m4a");
+            var letterY = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/y.m4a");
             letterY.play();
             break;
 
         case "z":
-            var letterZ = new Audio("/sounds/z.m4a");
+            var letterZ = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/z.m4a");
             letterZ.play();
             break;
         
         case "Mead ABCs":
-            var ABCs = new Audio("/sounds/ABCs.m4a");
+            var ABCs = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/ABCs.m4a");
             ABCs.play();
             break;
 
