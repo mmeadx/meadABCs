@@ -44,14 +44,14 @@ a, a:link, a:visited, a:hover, a:active {
 .bPressed {
     color: transparent;
     background-image: url("images/b.png");
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .cPressed {
     color: transparent;
     background-image: url("images/c.png");
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
