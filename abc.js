@@ -53,22 +53,22 @@ function soundOff(key) {
             break;
 
         case "b":
-            var letterB = new Audio("/sounds/b.m4a");
+            var letterB = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/b.m4a");
             letterB.play();
             break;
 
         case "c":
-            var letterC = new Audio("/sounds/c.m4a");
+            var letterC = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/c.m4a");
             letterC.play();
             break;
 
         case "d":
-            var letterD = new Audio("/sounds/d.m4a");
+            var letterD = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/d.m4a");
             letterD.play();
             break;
 
         case "e":
-            var letterE = new Audio("/sounds/e.m4a");
+            var letterE = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/e.m4a");
             letterE.play();
             break;
 
