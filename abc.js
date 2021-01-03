@@ -48,7 +48,7 @@ function soundOff(key) {
 
     switch (key) {
         case "a":
-            var letterA = new Audio("/sounds/a.mp3");
+            var letterA = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/a.mp3");
             letterA.play();
             break;
 
