@@ -2,7 +2,7 @@ console.log("abc.js running");
 
 // Click Handler for title "Let's practice our ABCs"
 document.querySelector("h1").addEventListener("click", function () {
-    var buttonInnerHTML = this.innerHTML;
+    let buttonInnerHTML = this.innerHTML;
     console.log(buttonInnerHTML);
 
     soundOff(buttonInnerHTML);
@@ -21,10 +21,10 @@ function LetterObject(imageName, audioFile, keyboardKey) {
 
 // Click Handler | add Event Listeners to each Letter button - then take small letter
 
-for (i = 0; i < alphabet; i++) {
+for (let i = 0; i < alphabet; i++) {
 
     document.querySelectorAll("button")[i].addEventListener("click", function () {
-        var buttonInnerHTML = this.innerHTML[1];
+        let buttonInnerHTML = this.innerHTML[1];
         console.log(buttonInnerHTML);
 
         buttonAnimation(buttonInnerHTML);
@@ -60,7 +60,7 @@ function buttonAnimation(currentKey) {
 
     console.log("button animation running on " + currentKey);
 
-    var activeKey = document.querySelector("." + currentKey);
+    let activeKey = document.querySelector("." + currentKey);
 
     activeKey.classList.add(currentKey + "Pressed");
 
