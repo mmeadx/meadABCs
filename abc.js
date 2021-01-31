@@ -49,7 +49,7 @@ function soundOff(key) {
         let ABCs = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/ABCs.m4a");
         ABCs.play();
     } else {
-        let letter = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/${key}.m4a")
+        let letter = new Audio(`https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/${key}.m4a`)
         letter.play();
     }
 }
