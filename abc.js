@@ -39,13 +39,14 @@ function buttonActivity(key) {
     if (!soundPlaying) {
         currentKey = key;
         soundPlaying = true;
+        console.log(`Running buttonActivity for ${ currentKey }`)
 
-        let activeKey = document.querySelector("." + currentKey);
-        activeKey.classList.add(currentKey + "Pressed");
         if (key === "Mead ABCs") {
             let ABCs = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/ABCs.m4a");
             ABCs.play().then(buttonActivityComplete, buttonActivityComplete);
         } else {
+            let activeKey = document.querySelector("." + currentKey);
+            activeKey.classList.add(currentKey + "Pressed");
             let letter = new Audio(`https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/${key}.m4a`)
             letter.play().then(buttonActivityComplete, buttonActivityComplete);
             ;
@@ -54,8 +55,10 @@ function buttonActivity(key) {
 }
 
 function buttonActivityComplete() {
-    let activeKey = document.querySelector("." + currentKey);
-    activeKey.classList.remove(currentKey + "Pressed")
+    if (currentKey !== "Mead ABCs") {
+        let activeKey = document.querySelector("." + currentKey);
+        activeKey.classList.remove(currentKey + "Pressed")
+    }
     soundPlaying = false
     currentKey = ""
 }
