@@ -43,13 +43,14 @@ function buttonActivity(key) {
 
         if (key === "Mead ABCs") {
             let ABCs = new Audio("https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/ABCs.m4a");
-            ABCs.play().then(buttonActivityComplete, buttonActivityComplete);
+            ABCs.onended = buttonActivityComplete;
+            ABCs.play();
         } else {
             let activeKey = document.querySelector("." + currentKey);
             activeKey.classList.add(currentKey + "Pressed");
             let letter = new Audio(`https://raw.githubusercontent.com/mmeadx/meadABCs/main/sounds/${key}.m4a`)
-            letter.play().then(buttonActivityComplete, buttonActivityComplete);
-            ;
+            letter.onended = buttonActivityComplete;
+            letter.play();
         }
     }
 }
