@@ -22,31 +22,27 @@ body {
 
 .btn {
     background-color: rgb(111, 143, 23);
+    box-shadow: 0px 2px 3px rgba(0, 0 , 0, 0.9);
     border-radius: 20px;
-    height: 100px;
-    width: 100px;
+    height: 6rem;
+    width: 6rem;
     border: none;
     color: #fff;
-    margin: 5px;
+    margin: 8px;
     font-size: 2.2rem;
     font-family: inherit;
     cursor: pointer;
+}
+
+.btn:hover {
+    transform: scale(.97);
+    box-shadow: 0px 5px 15px rgba(255, 255 , 255, 0.1);
 }
 
 .letters {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-#buttons {
-  display: absolute;
-}
-
-.image {
-    display: absolute;
-    height: 100px;
-    width: 100px;
 }
 
 .letter  {
