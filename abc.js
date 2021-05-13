@@ -13,7 +13,7 @@ letters.forEach(letter => {
         stopSounds();
 
         btn.innerText = '';
-        btn.style.backgroundImage = `url('/images/${letter}.png')`;
+        btn.style.backgroundImage = `url('./images/${letter}.png')`;
         btn.classList.add('letter');
 
         setTimeout(() => {
