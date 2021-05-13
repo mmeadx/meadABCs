@@ -7,7 +7,7 @@ letters.forEach(letter => {
 
     btn.classList.add('btn');
 
-    btn.innerText = letter;
+    btn.innerText = String(letter).toUpperCase() + letter;
 
     btn.addEventListener('click', () => {
         stopSounds();
@@ -19,7 +19,7 @@ letters.forEach(letter => {
         setTimeout(() => {
             btn.style.backgroundImage = 'none';
             btn.classList.remove('letter');
-            btn.innerText = letter;
+            btn.innerText = String(letter).toUpperCase() + letter;
         }, 2500);
 
         document.getElementById(letter).play();
